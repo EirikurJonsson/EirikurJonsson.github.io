@@ -5,7 +5,6 @@ So this post is all about time series plotting. This is done so easily with pyth
 1. Simple line plot over time
 2. Rolling average function
 3. Candlestick-graph
-4. Plot returns with Adjusted Ducky-Fuller test
 
 So without talking to much...let's get into it.
 
@@ -14,17 +13,12 @@ Like always lets import some modules and get started.
 
 
 ```python
-from dateutil.parser import parse 
-import matplotlib as mpl
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 import pandas as pd
 import mplfinance as mpf
-import matplotlib.dates as mdates
 from matplotlib import style
-import datetime
-from statsmodels.tsa.stattools import adfuller
 style.use("seaborn")
 ```
 
