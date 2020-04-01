@@ -1,6 +1,3 @@
-title: "Random portfolio generation"
-permalink: https://eirikurjonsson.github.io/page1
-
 # From social science to Data science
 
 So this is my showcase of skills in Data Science. This code compilation is mine but I have to give credit to Sentdex, the youtuber who has been a great resource for anyone that wants to learn to use Python.
