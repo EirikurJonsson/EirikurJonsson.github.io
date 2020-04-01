@@ -238,7 +238,7 @@ plt.show()
 ```
 
 
-![png](EirikurJonsson.github.io/images/Portfolio_14_0.png)
+![png](images/Portfolio_14_0.png)
 
 
 I think that this plot speaks for itself. I chose the number 20, I think having 20 assets in a portfolio is a good volatility number to accept. 
