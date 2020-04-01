@@ -52,7 +52,7 @@ plot_df(df = data, x = data["Date"], y = data["Adj Close"])
 ```
 
 
-![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/timeseriesplots_files/timeseriesplots_5_0.png)
+![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/timeseriesplots_files/timeseriesplots_5_0.png?raw=true)
 
 
 Thats real nice. But simple, so lets look at the next function - rolling averages.
@@ -88,7 +88,7 @@ rollave(df = data, x = "Date", y = "Adj Close", roll = 50)
 ```
 
 
-![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/timeseriesplots_files/timeseriesplots_7_0.png)
+![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/timeseriesplots_files/timeseriesplots_7_0.png?raw=true)
 
 
 
@@ -97,7 +97,7 @@ rollave(df = data, x = "Date", y = "Adj Close", roll = 50)
 roll = [52,252]
 rollave(df = data, x = "Date", y = "Adj Close", roll = roll)
 ```
-![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/timeseriesplots_files/timeseriesplots_8_0.png)
+![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/timeseriesplots_files/timeseriesplots_8_0.png?raw=true)
 
 
 
@@ -106,7 +106,7 @@ rollave(df = data, x = "Date", y = "Adj Close", roll = roll)
 roll = [52,126,252,]
 rollave(df = data, x = "Date", y = "Adj Close", roll = roll)
 ```
-![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/timeseriesplots_files/timeseriesplots_9_0.png)
+![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/timeseriesplots_files/timeseriesplots_9_0.png?raw=true)
 
 
 It is fun but starts to be boring after the you add the third line. Now this does do something some might think is bad - but I do have my reasons. In this function I add these calculation to the data frame. My assumption is that this might be data someone would like to use for further calculation down the line, so this takes care of that.
@@ -131,7 +131,7 @@ nCandlegraph(ohlc.loc["2018-12-01":"2019-01-01",:])
 ```
 
 
-![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/timeseriesplots_files/timeseriesplots_11_0.png)
+![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/timeseriesplots_files/timeseriesplots_11_0.png?raw=true)
 
 
 I know what you are thinking - it would have been easier to just write the code out instead of putting it into a function. Well if you look at my original repo then you'd see the code is a lot more detailed. But enough with that. The Python language has shown itself to be fantastic at dealing with data, manipulation of data and some pretty sweet graphs. I would have loved to do this in Plotly - an interactive graphing tool for Python and R, but that is a notebook onto itself.
