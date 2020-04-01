@@ -9,13 +9,11 @@ So this post is all about time series plotting. This is done so easily with pyth
 
 So without talking to much...let's get into it.
 
-Like always lets import some modules. Oh and just a hint I will be hiding the code but if you want to see it you can press the "Code" button and it should appear (makes the notebook look more pro and simpler to read). 
+Like always lets import some modules and get started.
 
 
 
 ```python
-{"tags": ["hide_input",]}
-
 from dateutil.parser import parse 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
@@ -41,13 +39,6 @@ Lets start by constructing a simple plot of the data function.
 
 
 ```python
-%%html
-<style>
-div.input {
-    display:none;
-}
-</style>
-
 def plot_df(df, x, y, title = "", xlabel = "Date", ylabel = "Value", dpi = 100):
     '''
     This is a simple generic plot function that will plot a time series. 
@@ -70,8 +61,6 @@ Now this is a bit more tricky because I wanted this to be as general as possible
 
 
 ```python
-{"tags": ["hide_input",]}
-
 def rollave(df, x, y, roll, title = ""):
     '''
     This function is meant to take in either a value or a list of values
@@ -104,26 +93,19 @@ rollave(df = data, x = "Date", y = "Adj Close", roll = 50)
 
 
 ```python
-{"tags": ["hide_input",]}
-
 # Two rolling averages
 roll = [52,252]
 rollave(df = data, x = "Date", y = "Adj Close", roll = roll)
 ```
-
-
 ![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/timeseriesplots_files/timeseriesplots_8_0.png)
 
 
 
 ```python
-{"tags": ["hide_input",]}
 # Three rolling averages
 roll = [52,126,252,]
 rollave(df = data, x = "Date", y = "Adj Close", roll = roll)
 ```
-
-
 ![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/timeseriesplots_files/timeseriesplots_9_0.png)
 
 
@@ -133,8 +115,6 @@ Lets move on the the candlestick graph. I am sad to say that my code for this ha
 
 
 ```python
-{"tags": ["hide_input",]}
-
 data = pd.read_csv("ABT.csv", parse_dates = True, index_col = 0)
 
 ohlc = data[["Open","High", "Low", "Close", "Volume"]].copy()
