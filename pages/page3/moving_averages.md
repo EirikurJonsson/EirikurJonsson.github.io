@@ -300,7 +300,7 @@ df.loc["2016-01-01":].plot(figsize=(10, 6))
 
 
 
-![png](output_11_1.png)
+![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/moving_averages/output_11_1.png)
 
 
 Although these results are statistically not significant it is still the best moving average to use IF you strategy was based around moving averages. Just for some extra fun lets plot the next best strategy - simply because I want to and plotting is fun.
@@ -321,7 +321,7 @@ df.loc["2018-04-01":].plot(figsize=(10, 6))
 
 
 
-![png](output_13_1.png)
+![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/moving_averages/output_13_1.png)
 
 
 I did "zoom-out" a little because the green line wasn't showing very well but this is the next best strategy.
