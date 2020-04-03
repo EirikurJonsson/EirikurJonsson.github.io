@@ -1,6 +1,6 @@
-# Exploring oil prices
+# Moving averages - which values are best?
 
-This is a short EDA on oil prices. So lets say a trader thinks moving averages are a good estimator for the prices of oil. But what are the best moving averages to go by? For this we can use the Sharpe ratio and the efficient frontier. Lets do that then, starting with some imports.
+In the last plot I created functions that plot moving averages. Now that only looked into certain values defined by the user - but are they the best? In this post I want to find the very best possible moving averages by calculating the Sharp Ratio for that strategy.
 
 
 ```python
