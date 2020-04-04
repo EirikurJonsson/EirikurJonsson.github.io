@@ -20,8 +20,7 @@ Here I created some cool functions to plot timeseries data. Its short, simple an
 
 ### [Moving averages - Which averages to use?](https://eirikurjonsson.github.io/pages/page3/moving_averages)
 
-I have plotted the moving averages - but how dow we know which is best - lets find out together.
+I have plotted the moving averages - but how dow we know which is best? So to explore this we need to be able to create all available combinations of a set of values that will ultimately be our moving average values. That was a lot but I hope you get the picture, I am also going to find the Sharp Ratio for these values so - lets find out together.
 
-![jpg](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/dummy_thumbnail.jpg?raw=true)
 
 
