@@ -18,10 +18,10 @@ Here I created some cool functions to plot timeseries data. Its short, simple an
 
 ---
 
-### [Moving averages - Which averages to use?](https://github.com/EirikurJonsson/EirikurJonsson.github.io/pages/page3/moving_averages)
+### [Moving averages - Which averages to use?](https://eirikurjonsson.github.io/pages/page3/moving_averages)
 
 I have plotted the moving averages - but how dow we know which is best - lets find out together.
 
-![jpg](https://github.com/EirikurJonsson/EirikurJonsson.github.io/images/dummy_thumbnail.jpg?raw=true)
+![jpg](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/dummy_thumbnail.jpg?raw=true)
 
 
