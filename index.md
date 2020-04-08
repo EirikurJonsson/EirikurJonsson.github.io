@@ -22,5 +22,12 @@ Here I created some cool functions to plot timeseries data. Its short, simple an
 
 I have plotted the moving averages - but how dow we know which is best? So to explore this we need to be able to create all available combinations of a set of values that will ultimately be our moving average values. That was a lot but I hope you get the picture, I am also going to find the Sharp Ratio for these values so - lets find out together.
 
+---
+
+### [Optimal Stopping - Why 37%?](https://eirikurjonsson.github.io/pages/page4/optimalstopping)
+
+So when we read books we come across new and interesting ideas. In this post I explore the 37% rule and how well it does when solving the Secretary problem. The results are really cool, a little surprising and invokes some ideas like "Why/When/Where would I ever use this" and "Thats really interesting, are there other areas that this might work?" I dont go into the history of the problem but I will link to some interesting material if there is interest to look further.
+
+---
 
 
