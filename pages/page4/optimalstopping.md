@@ -75,7 +75,7 @@ plt.show()
 ```
 
 
-![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/page4_images/output_2_0.png)
+![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/page4_images/output_2_0.png?raw=true)
 
 
 Well thats very telling (I am trying the dark theme for matplotlib, seems to be working ok I guess). I am surprised that this method is hovering around 73% of finding the optimal best. That last statements is almost a lie, I did use 37% of the data as benchmark, so seeing that the distribution of finding the optimal solution is hovering there isn't that surprising, but still really cool. This does however show how a fairly "simple" solution can yield good results. I say simple with quotes since its elegant in its simplicity, showcasing again that the simpler the solution statement - the more complex it really is.
