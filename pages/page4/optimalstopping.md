@@ -75,10 +75,10 @@ plt.show()
 ```
 
 
-![png](output_2_0.png)
+![png](https://github.com/EirikurJonsson/EirikurJonsson.github.io/blob/master/images/page4_images/output_2_0.png)
 
 
-Well thats very telling. I am surprised that this method is hovering around 73% of finding the optimal best. That last statements is almost a lie, I did use 37% of the data as benchmark, so seeing that the distribution of finding the optimal solution is hovering there isn't that surprising, but still really cool. This does however show how a fairly "simple" solution can yield good results. I say simple with quotes since its elegant in its simplicity, showcasing again that the simpler the solution statement - the more complex it really is.
+Well thats very telling (I am trying the dark theme for matplotlib, seems to be working ok I guess). I am surprised that this method is hovering around 73% of finding the optimal best. That last statements is almost a lie, I did use 37% of the data as benchmark, so seeing that the distribution of finding the optimal solution is hovering there isn't that surprising, but still really cool. This does however show how a fairly "simple" solution can yield good results. I say simple with quotes since its elegant in its simplicity, showcasing again that the simpler the solution statement - the more complex it really is.
 
 This may lead someone to think that this is not applicable in real life, well I got to tell you that the authors of the book would disagree. Optimal stopping is a subfield onto itself and a very interesting one, methods like gradient decent, simulated annealing and more are a part of ["probability techniques for approximating the global optimum given a function"](https://en.wikipedia.org/wiki/Simulated_annealing).
 
