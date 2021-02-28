@@ -3,6 +3,14 @@
 This is my first portfolio since I took the leap from social science to Data science. I am currently working on my masters degree in data science at the University of Southern Denmark. I will be populating this page with my personal projects and I woun't bore your with my school projects - although I will allow myself to take inspiration from them.
 
 ---
+
+### [My Resume](https://eirikurjonsson.github.io/pages/page5/cv)
+
+My Resume - This has always been the intent of mine to post this here, so here it is in all its glory.
+
+---
+
+---
 ## My project portfolio
 
 
@@ -27,11 +35,5 @@ I have plotted the moving averages - but how dow we know which is best? So to ex
 ### [Optimal Stopping - Why 37%?](https://eirikurjonsson.github.io/pages/page4/optimalstopping)
 
 So when we read books we come across new and interesting ideas. In this post I explore the 37% rule and how well it does when solving the Secretary problem. The results are really cool, a little surprising and invokes some ideas like "Why/When/Where would I ever use this" and "Thats really interesting, are there other areas that this might work?" I dont go into the history of the problem but I will link to some interesting material if there is interest to look further.
-
----
-
-### [My Resume](https://eirikurjonsson.github.io/pages/page5/cv)
-
-My Resume - This has always been the intent of mine to post this here, so here it is in all its glory.
 
 ---
