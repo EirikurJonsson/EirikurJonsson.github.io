@@ -30,4 +30,8 @@ So when we read books we come across new and interesting ideas. In this post I e
 
 ---
 
+### [My Resume](https://eirikurjonsson.github.io/pages/page5/cv)
 
+My Resume - This has always been the intent of mine to post this here, so here it is in all its glory.
+
+---
